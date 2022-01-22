@@ -51,7 +51,7 @@ public class BubbleTeaRouletteServiceTest {
 
             //Act
             var actualResult = bubbleTeaRouletteService.getRandomBubbleTeaType();
-            //System.out.println(actualResult + " E: " + expectedResult);
+
             //Assert
             assertEquals(expectedResult, actualResult);
             i++;
